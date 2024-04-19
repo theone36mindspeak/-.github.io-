@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickEnglish - Aprende Inglés Rápido</title>
+    <!-- Enlaces a archivos CSS (Bootstrap, estilos personalizados) -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Barra de navegación -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">QuickEnglish</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#home">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">Sobre el Curso</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#modules">Módulos del Curso</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#testimonials">Testimonios</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#faq">Preguntas Frecuentes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contacto</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Contenido principal -->
+<div class="container">
+    <section id="home">
+        <!-- Página de inicio -->
+        <h1>Bienvenido a QuickEnglish</h1>
+        <p>Facilitando el aprendizaje rápido del inglés mediante técnicas avanzadas.</p>
+        <!-- Breve explicación del curso y llamada a la acción -->
+        <a href="#" class="btn btn-primary">Inscribirse</a>
+        <a href="#" class="btn btn-secondary">Probar una lección gratuita</a>
+    </section>
+
+    <section id="about">
+        <!-- Sobre el curso -->
+        <h2>Sobre el Curso</h2>
+        <p>Detalles sobre las metodologías utilizadas (neuropsicología, mindfulness, etc.).</p>
+    </section>
+
+    <section id="modules">
+        <!-- Módulos del curso -->
+        <h2>Módulos del Curso</h2>
+        <!-- Acceso a diferentes lecciones organizadas por temas y niveles -->
+    </section>
+
+    <section id="testimonials">
+        <!-- Testimonios -->
+        <h2>Testimonios</h2>
+        <!-- Opiniones y experiencias de usuarios anteriores -->
+    </section>
+
+    <section id="faq">
+        <!-- Preguntas frecuentes -->
+        <h2>Preguntas Frecuentes</h2>
+        <!-- Respuestas a preguntas frecuentes -->
+    </section>
+
+    <section id="contact">
+        <!-- Contacto -->
+        <h2>Contacto</h2>
+        <!-- Formulario de contacto y datos de soporte técnico -->
+    </section>
+</div>
+
+<!-- Enlaces a archivos JavaScript (Bootstrap, jQuery) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
